@@ -1,5 +1,5 @@
 pipeline {
-    agent any { label 'linux' }
+    agent any
     tools {
         maven 'latest'
     }
